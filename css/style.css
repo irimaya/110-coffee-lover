@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+h1 { 
+  font-size: 2.5rem; 
+  font-weight: 500;
+}
+h2 { 
+  text-align: center;
+  font-size: 22px; 
+  font-weight: 500;
+  text-transform: uppercase;
+  background: #FBE5E8;
+  padding: 20px;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.title {
+  background: #FBE5E8;
+  padding: 20px;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a { text-decoration: none; }
+
+header {
+  height: 100vh;
+}
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+/* Navbar */
+#navbar {
+  /* background: #333;
+  color: #fff; */
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#navbar a {
+  color: #000;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 16px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+#navbar ul li img {
+  height: 45px;
+  margin-left: 20px;
+}
+
+/* Showcase */
+#showcase {
+  text-align: center;
+}
+
+#showcase img {
+  width: 600px;
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+
+#showcase p {
+  width: 45%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+/* About */
+#about {
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+
+.about-title {
+  float: left;
+  width: 50%;
+  padding-top: 150px;
+  padding-right: 30px;
+}
+
+.display-1 { 
+  font-size: 56px; 
+  font-weight: 300;
+  line-height: normal;
+}
+
+.about-description {
+  float: right;
+  width: 50%;
+  padding-top: 150px;
+}
+
+.about-description p {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+/* Testimonial */
+#testimonial {
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+
+#testimonial p {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.testimonial-left {
+  float: left;
+  width: 50%;
+  padding-top: 150px;
+}
+
+.testimonial-right {
+  float: right;
+  width: 50%;
+  padding-top: 150px;
+}
+
+#testimonial .person {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+/* Button */
+#button {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+#button img {
+  height: 60px;
+}
+
+/* Footer */
+#mainfooter {
+  text-align: center;
+  padding:30px;
+}
